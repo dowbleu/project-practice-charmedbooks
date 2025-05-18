@@ -1,0 +1,247 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Charmed Books | Проектная практика</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+
+<body>
+    <div class="animated-bg"></div>
+
+    <header class="parallax-header">
+        <div class="header-overlay"></div>
+        <nav class="nav-header">
+            <div class="nav-container">
+                <a href="index.html" class="logo">
+                    <i class="fas fa-book-open"></i> Charmed Books
+                </a>
+                <div class="nav-toggle" id="navToggle">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+                <ul class="nav-links" id="navLinks">
+                    <li><a href="index.html" class="active"><i class="fas fa-home"></i> Главная</a></li>
+                    <li><a href="about.html"><i class="fas fa-info-circle"></i> О проекте</a></li>
+                    <li><a href="resources.html"><i class="fas fa-link"></i> Ресурсы</a></li>
+                    <li><a href="#team"><i class="fas fa-users"></i> Команда</a></li>
+                    <li><a href="#journal"><i class="fas fa-newspaper"></i> Журнал</a></li>
+                </ul>
+            </div>
+        </nav>
+
+        <div class="hero-content">
+            <h1>Оживим чтение вместе!</h1>
+            <p>Интерактивные книги нового поколения</p>
+            <a href="#about" class="cta-button">Узнать больше</a>
+        </div>
+
+        <div class="scroll-down">
+            <i class="fas fa-chevron-down"></i>
+        </div>
+    </header>
+
+    <main>
+        <section id="about" class="section about-section">
+            <div class="section-container">
+                <h2 class="section-title"><span>О проекте</span></h2>
+                <div class="about-grid">
+                    <div class="about-text">
+                        <h3>Charmed Books — это революция в электронных книгах</h3>
+                        <p>Мы создаем интерактивные издания, где детские книжки оживают благодаря анимации,
+                            звуковым эффектам и игровым элементам.</p>
+                        <div class="features">
+                            <div class="feature">
+                                <i class="fas fa-magic"></i>
+                                <h4>Анимированные иллюстрации</h4>
+                            </div>
+                            <div class="feature">
+                                <i class="fas fa-hand-pointer"></i>
+                                <h4>Интерактивные элементы</h4>
+                            </div>
+                            <div class="feature">
+                                <i class="fas fa-headphones"></i>
+                                <h4>Звуковое сопровождение</h4>
+                            </div>
+                        </div>
+                        <a href="about.html" class="read-more">Подробнее о проекте →</a>
+                    </div>
+                    <div class="about-image">
+                        <video alt="Демонстрация интерактивной книги" class="floating-img" controls>
+                            <source src="images/book-demo.mp4" type="video/mp4">
+                        </video>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="team" class="section team-section">
+            <div class="section-container">
+                <h2 class="section-title"><span>Наша команда</span></h2>
+                <div class="team-grid">
+                    <div class="team-card">
+                        <div class="card-image">
+                            <img src='images/argunov-img.png' alt="Аргунов Денис">
+                            <div class="social-links">
+                                <a href="https://vk.com/dowbleuw"><i class="fab fa-vk"></i></a>
+                                <a href="https://t.me/western_red096"><i class="fab fa-telegram"></i></a>
+                                <a href="https://github.com/dowbleu"><i class="fab fa-github"></i></a>
+                            </div>
+                        </div>
+                        <div class="card-info">
+                            <h3>Аргунов Денис</h3>
+                            <p class="role">Frontend-разработчик</p>
+                            <p class="contribution">Сверстал интерактивные страницы для "Городка в табакерке",
+                                реализовал анимации и адаптивный дизайн.</p>
+                        </div>
+                    </div>
+
+                    <div class="team-card">
+                        <div class="card-image">
+                            <img src='images/morozov-img.png' alt="Морозов Владислав">
+                            <div class="social-links">
+                                <a href="https://vk.com/maryon096"><i class="fab fa-vk"></i></a>
+                                <a href="https://t.me/maryon096"><i class="fab fa-telegram"></i></a>
+                                <a href="https://github.com/v1ados228"><i class="fab fa-github"></i></a>
+                            </div>
+                        </div>
+                        <div class="card-info">
+                            <h3>Морозов Владислав</h3>
+                            <p class="role">Frontend-разработчик</p>
+                            <p class="contribution">Сверстал несколько страниц и создал для них интерактивные элементы и
+                                анимации для книги "Городок в табакерке".</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="journal" class="section journal-section">
+            <div class="section-container">
+                <h2 class="section-title"><span>Журнал проекта</span></h2>
+                <div class="timeline">
+                    <div class="timeline-item">
+                        <div class="timeline-date">10 Февраля 2025</div>
+                        <div class="timeline-content">
+                            <h3>Изучение кода "Боевой мыши"</h3>
+                            <p>В качестве примера для реализации "Городка в табакерке" была взята, на тот момент, уже
+                                реализованная "Боевая мышь". Был изучен её код и методы расположения интерактивных
+                                элементов на странице.</p>
+                            <div class="timeline-image">
+                                <img src="images/progress1.png" alt="Прогресс проекта">
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="timeline-item">
+                        <div class="timeline-date">3 Марта 2025</div>
+                        <div class="timeline-content">
+                            <h3>Старт работы над "Городком в табакерке"</h3>
+                            <p>Стартовала полноценная работа над книжкой "Городок в табакерке". На этот момент уже были
+                                нарисованны все экраны, остававлось сверстать книжку, добавить анимации и интерактив.
+                                После изучения кода "Боевой мыши" были применены похожие методы реализации страничек, но
+                                немного измененные. Задача создания "городка" была поделена на три части для каждого из
+                                фронтендеров.</p>
+                            <div class="timeline-image">
+                                <img src="images/progress2.png" alt="Прогресс проекта">
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="timeline-item">
+                        <div class="timeline-date">15 Апреля 2025</div>
+                        <div class="timeline-content">
+                            <h3>Процесс создания "Городка в табакерке"</h3>
+                            <p>Работа над произведением В.Ф. Одоевского идет полным ходом. На данный момент уже сделано
+                                более половины экранов, для некоторых разрабатывается адаптивность, а для некоторых
+                                добавляются анимации и интерактив.</p>
+                            <div class="timeline-image">
+                                <img src="images/progress3.png" alt="Прогресс проекта">
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="timeline-item">
+                        <div class="timeline-date">15 Мая 2025</div>
+                        <div class="timeline-content">
+                            <h3>Завершена работа над "Городком в табакерке"</h3>
+                            <p>Завершена разработка всех интерактивных страниц для произведения В.Ф. Одоевского.
+                                Реализованы сложные анимации механизмов и персонажей.</p>
+                            <div class="timeline-image">
+                                <img src="images/progress4.png" alt="Прогресс проекта">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="section stats-section">
+            <div class="section-container">
+                <h2 class="section-title"><span>Наши достижения</span></h2>
+                <div class="stats-grid">
+                    <div class="stat-item">
+                        <i class="fas fa-book"></i>
+                        <div class="counter" data-target="5">3</div>
+                        <p>Завершенных книг</p>
+                    </div>
+                    <div class="stat-item">
+                        <i class="fas fa-code"></i>
+                        <div class="counter" data-target="12000">15000+</div>
+                        <p>Строк кода</p>
+                    </div>
+                    <div class="stat-item">
+                        <i class="fas fa-users"></i>
+                        <div class="counter" data-target="13">10+</div>
+                        <p>Участников</p>
+                    </div>
+                    <div class="stat-item">
+                        <i class="fas fa-clock"></i>
+                        <div class="counter" data-target="450">100+</div>
+                        <p>Часов работы</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="footer-container">
+            <div class="footer-col">
+                <h3>Charmed Books</h3>
+                <p>Инновационные интерактивные электронные издания для нового поколения читателей.</p>
+                <div class="social-icons">
+                    <a href="https://charmed-books.ru"><i class="fas fa-search"></i></a>
+                    <a href="https://vk.com/charmedbooks?from=search"><i class="fab fa-vk"></i></a>
+                    <a href="https://t.me/charmedbooks"><i class="fab fa-telegram"></i></a>
+                    <a href="https://github.com/dowbleu/project-practice-charmedbooks"><i class="fab fa-github"></i></a>
+                </div>
+            </div>
+            <div class="footer-col">
+                <h3>Навигация</h3>
+                <ul>
+                    <li><a href="index.html">Главная</a></li>
+                    <li><a href="about.html">О проекте</a></li>
+                    <li><a href="resources.html">Ресурсы</a></li>
+                    <li><a href="#team">Команда</a></li>
+                    <li><a href="#journal">Журнал</a></li>
+                </ul>
+            </div>
+            <div class="footer-col">
+                <h3>Контакты</h3>
+                <p><i class="fas fa-book"></i> Charmed Books</p>
+                <p><i class="fas fa-university"></i> Московский Политех</p>
+                <p><i class="fas fa-users"></i> Проектная деятельность</p>
+            </div>
+        </div>
+        <div class="copyright">
+            <p>&copy; 2025 Charmed Books. Все права защищены.</p>
+        </div>
+    </footer>
+</body>
+
+</html>
