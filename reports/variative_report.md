@@ -103,4 +103,4 @@ def send_movie_recommendation(message):
 ```
 
 ---
-[Видео-демонстрация работы движка](./variative_presentation.MOV)
+[Видео-демонстрация работы движка](./variative_presentation.mov)
